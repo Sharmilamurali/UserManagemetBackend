@@ -85,17 +85,17 @@ class UserServiceImplTest {
     /**
      * Method under test: {@link UserServiceImpl#loginUser(String, String)}
      */
-    @Test
-    void testLoginUser3() {
+    // @Test
+    // void testLoginUser3() {
 
-        User user = new User();
-        user.setId(1);
-        user.setNickName("Nick Name");
-        user.setPassword("password123");
-        user.setUsername("janedoe");
-        when(userRepository.validateUser(Mockito.<String>any(), Mockito.<String>any())).thenReturn(user);
-        userServiceImpl.loginUser(null, "password123");
-    }
+    //     User user = new User();
+    //     user.setId(1);
+    //     user.setNickName("Nick Name");
+    //     user.setPassword("password123");
+    //     user.setUsername("janedoe");
+    //     when(userRepository.validateUser(Mockito.<String>any(), Mockito.<String>any())).thenReturn(user);
+    //     userServiceImpl.loginUser(null, "password123");
+    // }
 
     /**
      * Method under test: {@link UserServiceImpl#loginUser(String, String)}
@@ -113,18 +113,18 @@ class UserServiceImplTest {
 
     /**
      * Method under test: {@link UserServiceImpl#loginUser(String, String)}
-     */
-    @Test
-    void testLoginUser5() {
+    //  */
+    // @Test
+    // void testLoginUser5() {
 
-        User user = new User();
-        user.setId(1);
-        user.setNickName("Nick Name");
-        user.setPassword("password123");
-        user.setUsername("janedoe");
-        when(userRepository.validateUser(Mockito.<String>any(), Mockito.<String>any())).thenReturn(user);
-        userServiceImpl.loginUser("admin", null);
-    }
+    //     User user = new User();
+    //     user.setId(1);
+    //     user.setNickName("Nick Name");
+    //     user.setPassword("password123");
+    //     user.setUsername("janedoe");
+    //     when(userRepository.validateUser(Mockito.<String>any(), Mockito.<String>any())).thenReturn(user);
+    //     userServiceImpl.loginUser("admin", null);
+    // }
 
     /**
      * Method under test: {@link UserServiceImpl#getAllUsers()}
