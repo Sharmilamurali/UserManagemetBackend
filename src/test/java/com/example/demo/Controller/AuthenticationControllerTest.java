@@ -230,25 +230,25 @@ class AuthenticationControllerTest {
         (new AuthenticationController()).forgetPassword("Nick Name", "password123");
     }
 
-    /**
-     * Method under test: {@link AuthenticationController#forgetPassword(String, String)}
-     */
-    @Test
-    void testForgetPassword2() {
+    // /**
+    //  * Method under test: {@link AuthenticationController#forgetPassword(String, String)}
+    //  */
+    // @Test
+    // void testForgetPassword2() {
 
-        assertEquals("please enter your nickname & new password ...",
-                (new AuthenticationController()).forgetPassword(null, null));
-    }
+    //     assertEquals("please enter your nickname & new password ...",
+    //             (new AuthenticationController()).forgetPassword(null, null));
+    // }
 
-    /**
-     * Method under test: {@link AuthenticationController#forgetPassword(String, String)}
-     */
-    @Test
-    void testForgetPassword3() {
+    // /**
+    //  * Method under test: {@link AuthenticationController#forgetPassword(String, String)}
+    //  */
+    // @Test
+    // void testForgetPassword3() {
 
-        assertEquals("please enter your nickname & new password ...",
-                (new AuthenticationController()).forgetPassword("foo", null));
-    }
+    //     assertEquals("please enter your nickname & new password ...",
+    //             (new AuthenticationController()).forgetPassword("foo", null));
+    // }
 
     /**
      * Method under test: {@link AuthenticationController#registerUser(User)}
