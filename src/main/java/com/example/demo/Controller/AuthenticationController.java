@@ -27,6 +27,11 @@ public class AuthenticationController {
 
 	@Autowired
 	private UserRepository userRepository;
+	
+	@GetMapping("/")
+	public String test(){
+		return "hiii"
+	}
 
 	@PostMapping("/addUser")
 	public ResponseEntity<?> registerUser(@RequestBody User user) {
