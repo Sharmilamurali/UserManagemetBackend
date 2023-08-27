@@ -30,7 +30,7 @@ public class AuthenticationController {
 	
 	@GetMapping("/")
 	public String test(){
-		return "hiii"
+		return "hiii";
 	}
 
 	@PostMapping("/addUser")
